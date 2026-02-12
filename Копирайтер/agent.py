@@ -227,9 +227,66 @@ def cmd_help() -> None:
 """)
 
 
+# ── dispatch ──────────────────────────────────────────────────────────────────
+
+def dispatch(raw: str) -> None:
+    """Выполняет одну команду и выходит."""
+    parts = raw.strip().split(maxsplit=1)
+    if not parts:
+        return
+    cmd = parts[0].lower()
+    arg = parts[1] if len(parts) > 1 else ""
+
+    if cmd in ("помощь", "help"):
+        cmd_help()
+    elif cmd == "пост":
+        if not arg:
+            print("[!] Укажи тему: пост <тема>")
+        else:
+            cmd_post(arg)
+    elif cmd == "стиль":
+        cmd_analyze_style()
+    elif cmd == "конкуренты":
+        cmd_analyze_competitors()
+    elif cmd == "план":
+        period = arg if arg else "неделю"
+        cmd_content_plan(period)
+    elif cmd == "критика":
+        if not arg:
+            print("[!] Передай текст поста: критика <текст>")
+        else:
+            # в неинтерактивном режиме текст передаётся как аргумент
+            post_text = arg
+            print("\n⏳ Анализирую пост...\n")
+            context = build_context()
+            prompt = f"""Проверь этот пост по 5 критериям:
+
+{post_text}
+
+1. СТИЛЬ — соответствует ли моему голосу? Что нарушает?
+2. ХУК — цепляет ли первая строка? Дай улучшенный вариант.
+3. СТРУКТУРА — логика, читаемость, абзацы.
+4. ПОЛЬЗА для аудитории — есть ли конкретная ценность?
+5. CTA — есть ли призыв к действию? Какой поставить?
+
+В конце: итоговая оценка /10 и переписанный улучшенный вариант поста."""
+            result = ask_claude(context, prompt)
+            print("─" * 60)
+            print(result)
+            print("─" * 60)
+    else:
+        print(f"[?] Неизвестная команда: '{cmd}'. Попробуй: пост / стиль / конкуренты / план / критика / помощь")
+
+
 # ── main loop ─────────────────────────────────────────────────────────────────
 
 def main() -> None:
+    # Неинтерактивный режим: python agent.py <команда> [аргумент]
+    if len(sys.argv) > 1:
+        dispatch(" ".join(sys.argv[1:]))
+        return
+
+    # Интерактивный режим (запуск без аргументов)
     print("\n🤖 Telegram Copywriter Agent запущен.")
     print("   Введи 'помощь' чтобы увидеть доступные команды.\n")
 
@@ -243,31 +300,11 @@ def main() -> None:
         if not raw:
             continue
 
-        parts = raw.split(maxsplit=1)
-        cmd = parts[0].lower()
-        arg = parts[1] if len(parts) > 1 else ""
-
-        if cmd in ("выход", "exit", "quit"):
+        if raw.lower() in ("выход", "exit", "quit"):
             print("Пока!")
             break
-        elif cmd in ("помощь", "help"):
-            cmd_help()
-        elif cmd == "пост":
-            if not arg:
-                print("[!] Укажи тему: пост <тема>")
-            else:
-                cmd_post(arg)
-        elif cmd == "стиль":
-            cmd_analyze_style()
-        elif cmd == "конкуренты":
-            cmd_analyze_competitors()
-        elif cmd == "план":
-            period = arg if arg else "неделю"
-            cmd_content_plan(period)
-        elif cmd == "критика":
-            cmd_critique()
-        else:
-            print(f"[?] Неизвестная команда: '{cmd}'. Введи 'помощь' для списка команд.")
+
+        dispatch(raw)
 
 
 if __name__ == "__main__":
