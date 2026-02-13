@@ -20,19 +20,11 @@ description: Исследует один аспект темы через Exa AP
 Для каждого запроса из `queries` выполни:
 
 ```bash
-curl -s -X POST https://api.exa.ai/search \
-  -H "Content-Type: application/json" \
-  -H "x-api-key: $EXA_API_KEY" \
-  -d '{
-    "query": "<ЗАПРОС>",
-    "numResults": 8,
-    "type": "neural",
-    "useAutoprompt": true,
-    "contents": {
-      "text": { "maxCharacters": 2000 },
-      "highlights": { "numSentences": 3 }
-    }
-  }'
+curl -s \
+  --header "Content-Type: application/json" \
+  --header "x-api-key: ${EXA_API_KEY}" \
+  --data '{"query":"<ЗАПРОС>","numResults":8,"type":"neural","useAutoprompt":true,"contents":{"text":{"maxCharacters":2000},"highlights":{"numSentences":3}}}' \
+  https://api.exa.ai/search
 ```
 
 Собери все результаты. Максимум 15 уникальных источников суммарно.
