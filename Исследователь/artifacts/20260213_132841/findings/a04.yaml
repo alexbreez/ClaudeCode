@@ -1,0 +1,155 @@
+metadata:
+  aspect_id: "a04"
+  aspect_name: "Подписки и paywall модели"
+  queries_count: 5
+  sources_evaluated: 15
+  sources_used: 11
+
+findings:
+  - id: "f001"
+    content: "MotorTrend OnDemand (позднее переименован в MotorTrend+) запущен осенью 2015 года по цене $5.99/месяц или $99 за два года. Первоначально предлагал свыше 1000 часов оригинального контента, включая сериалы Roadkill Garage, Head2Head, Ignition. Доступ через Roku и Apple TV."
+    source:
+      url: "https://digiday.com/future-of-tv/262004/"
+      title: "Motor Trend finds traction in a subscription streaming service"
+      tier: A
+      freshness: устаревший
+    relevance: high
+    tags: ["motortrend+", "запуск", "ценообразование", "SVOD"]
+
+  - id: "f002"
+    content: "За первые 15 месяцев работы (к ноябрю 2017 года) Motor Trend OnDemand привлёк свыше 100 000 платных подписчиков. За 2017 год сервис стриминговал более 800 часов моторспортивных трансляций (Ле-Ман, Monaco Historic Grand Prix). Параллельно бесплатный YouTube-канал Motor Trend имел 3.8 млн подписчиков."
+    source:
+      url: "https://digiday.com/future-of-tv/262004/"
+      title: "Motor Trend finds traction in a subscription streaming service"
+      tier: A
+      freshness: устаревший
+    relevance: high
+    tags: ["motortrend+", "подписчики", "100k", "рост"]
+
+  - id: "f003"
+    content: "К 2016 году Motor Trend стартовал видео-paywall, имея почти миллиард просмотров на YouTube (бесплатный канал). Стратегия — конвертировать часть бесплатной аудитории в платных подписчиков. Показательно: бесплатный YouTube-канал не закрывался, paywall вводился параллельно как отдельный уровень доступа к эксклюзивному контенту."
+    source:
+      url: "https://digiday.com/media/nearly-billion-views-youtube-motor-trend-now-building-video-paywall/"
+      title: "With a billion views on YouTube, Motor Trend is now building a video paywall"
+      tier: A
+      freshness: устаревший
+    relevance: high
+    tags: ["motortrend", "paywall", "конверсия", "freemium", "youtube"]
+
+  - id: "f004"
+    content: "К 2023 году совокупный цифровой и видео-бизнес MotorTrend (включая MotorTrend+, линейный ТВ-канал MotorTrend TV, FAST-канал и цифровые платформы) достиг уровня «девятизначного бизнеса» — то есть свыше $100 млн годовой выручки. Это означало трансформацию от журнального издателя к диверсифицированной медиакомпании. CEO Алекс Уэллен: «Печать, которая нас создала, больше не может нас определять»."
+    source:
+      url: "https://www.businessinsider.com/warner-bros-discovery-motortrend-built-video-digital-business-2023-8"
+      title: "How MotorTrend turned its magazine group into a 9-figure video and digital business for Warner Bros. Discovery"
+      tier: A
+      freshness: актуальный
+    relevance: high
+    tags: ["motortrend", "выручка", "100M+", "трансформация", "цифровой"]
+
+  - id: "f005"
+    content: "В феврале 2024 года Warner Bros. Discovery объявил о закрытии MotorTrend+ к концу марта 2024 года. 1000+ часов контента мигрировало на Discovery+ и Max. Большинство подписчиков MotorTrend+ автоматически переведены на Discovery+ (Ad-Free) по той же цене подписки с доступом к 70 000+ эпизодов. Сервис просуществовал около 8.5 лет (2015–2024). На пике — более 8000 эпизодов и 4000+ часов автомобильного контента."
+    source:
+      url: "https://variety.com/2024/digital/news/motortrend-plus-shutting-down-discovery-plus-1235921047/"
+      title: "MotorTrend+ Streaming Service Will Shut Down, With Most Subscribers to Be Migrated to Discovery+"
+      tier: A
+      freshness: свежий
+    relevance: high
+    tags: ["motortrend+", "закрытие", "discovery+", "консолидация", "2024"]
+
+  - id: "f006"
+    content: "Закрытие MotorTrend+ обусловлено стратегией Warner Bros. Discovery на консолидацию нишевых стриминговых сервисов в единые платформы Discovery+ и Max. Это отражает более широкий тренд — нишевые SVOD-сервисы сложно масштабировать до уровня, оправдывающего операционные расходы. WBD закрыл MotorTrend+ в квартал, когда впервые вышел на положительный свободный денежный поток ($3.31 млрд за Q4 2023)."
+    source:
+      url: "https://deadline.com/2024/02/warner-bros-discovery-motortrend-streaming-discovery-max-1235835884/"
+      title: "WBD Shutting Down MotorTrend+ Subscription Service, Moving Its Content To Discovery+ & Max"
+      tier: A
+      freshness: свежий
+    relevance: high
+    tags: ["motortrend+", "закрытие", "нишевый-стриминг", "консолидация", "WBD"]
+
+  - id: "f007"
+    content: "Consumer Reports — некоммерческая организация с 5+ млн членов (подписчиков). Структура членства: Digital Monthly — $10/месяц; Digital Annual — $39/год ($3.25/месяц); All Access (Print + Digital) — $59–$64/год ($5.34/месяц). Отсутствие рекламы — фундаментальная часть модели. Членство покрывает доступ к 10 000+ рейтингам продуктов, автомобильным отзывам и инструментам Car Recall Tracker."
+    source:
+      url: "https://www.consumerreports.org/membership/"
+      title: "Join Consumer Reports - Consumer Reports"
+      tier: S
+      freshness: свежий
+    relevance: high
+    tags: ["consumer-reports", "ценообразование", "членство", "no-ads", "модель"]
+
+  - id: "f008"
+    content: "Согласно финансовой отчётности Consumer Reports за FY2024 (май 2024), отложенная выручка (Deferred Revenue) — преимущественно предоплаченные подписки — составила $93.46 млн (текущая) + $10.6 млн (долгосрочная) = $104 млн. Это косвенный показатель масштаба подписного бизнеса. Для сравнения: FY2022 — $97.6 млн + $12.1 млн = $109.7 млн. Небольшое снижение деферрированной выручки указывает на стабилизацию числа членов."
+    source:
+      url: "https://www.consumerreports.org/annual-report/2024/financials/"
+      title: "Financial Report | Consumer Reports Annual Report 2024"
+      tier: S
+      freshness: свежий
+    relevance: high
+    tags: ["consumer-reports", "выручка", "деферрированная-выручка", "финансы", "подписки"]
+
+  - id: "f009"
+    content: "Motor Sport magazine (Великобритания, выходит с 1924 года) с 2018 года активно развивала tiered subscription модель с gated paywall. По словам Marketing Operations Director Жерара О'Брайена, издание установило «single customer view», ввело многоуровневую стратегию подписки и успешно монетизировало платный доступ. Параллельно разрабатывалась стратегия мероприятий как дополнительного источника доходов. Пример успешной диверсификации reader revenue в нишевом автомобильном издании."
+    source:
+      url: "https://inpublishing.co.uk/articles/motor-sport-doubling-down-on-reader-revenues-153"
+      title: "Motor Sport: doubling down on reader revenues"
+      tier: B
+      freshness: устаревший
+    relevance: medium
+    tags: ["motor-sport", "paywall", "tiered-subscription", "reader-revenue", "UK"]
+
+  - id: "f010"
+    content: "По данным accio.com (январь 2026), рынок подписок MotorTrend переживает значительный сдвиг: от традиционных бумажных подписок к консолидированному цифровому стримингу. Специализированный стриминг MotorTrend+ прекратил работу, контент мигрировал на более крупные платформы WBD. Это означает стратегическое решение крупного медиахолдинга централизовать автомобильный контент внутри общего цифрового экосистемы, а не поддерживать отдельный нишевый сервис."
+    source:
+      url: "https://www.accio.com/business/motor_trend_plus_subscription"
+      title: "motor trend plus subscription - Accio Research"
+      tier: C
+      freshness: свежий
+    relevance: medium
+    tags: ["motortrend+", "рыночный-тренд", "консолидация", "2026"]
+
+  - id: "f011"
+    content: "Среди лайфстайл-изданий в 2024 году наблюдается разделение стратегий: одни (Time, Atlantic) активно инвестируют в цифровые подписки, другие — сворачивают. National Geographic и Vogue сделали ставку на цифровой доступ к архиву и эксклюзивным материалам. Для автомобильных изданий (Car and Driver, Road & Track) характерна схожая дилемма — цифровой paywall vs. рекламная модель. Средние цены на цифровые подписки лайфстайл-изданий в 2024 году незначительно выросли (номинально), реальный рост ниже инфляции."
+    source:
+      url: "https://digiday.com/media/digiday-research-lifestyle-subscription-index-2024-time-vogue-and-the-atlantic-choose-between-divesting-or-investing-in-subscriptions/"
+      title: "Digiday+ Research Lifestyle Subscription Index 2024"
+      tier: A
+      freshness: свежий
+    relevance: medium
+    tags: ["lifestyle-media", "paywall", "digital-subscription", "2024", "тренды"]
+
+themes:
+  - name: "Нишевый SVOD сложно масштабировать"
+    finding_ids: ["f001", "f002", "f005", "f006"]
+    description: "MotorTrend+ прошёл путь от 0 до 100k подписчиков за 15 месяцев, вырос до 9-значной выручки, но в итоге был поглощён более крупным стриминговым агрегатором Discovery+. Нишевые автомобильные SVOD не могут конкурировать по контент-каталогу с универсальными платформами."
+
+  - name: "Freemium-стратегия как воронка конверсии"
+    finding_ids: ["f003", "f001"]
+    description: "Классическая модель: бесплатный YouTube как awareness-канал (1 млрд просмотров), затем введение платного уровня с эксклюзивным контентом. Оба канала существовали параллельно — paywall не заменял бесплатный доступ, а дополнял его."
+
+  - name: "Членская модель без рекламы как конкурентное преимущество"
+    finding_ids: ["f007", "f008"]
+    description: "Consumer Reports выстроил устойчивый бизнес на 5+ млн членов, полностью отказавшись от рекламных доходов. Деферрированная выручка ~$100-110 млн — надёжный предсказуемый поток. Независимость от рекламодателей стала ключевым УТП для автомобильного сегмента."
+
+  - name: "Консолидация vs. специализация"
+    finding_ids: ["f005", "f006", "f010", "f011"]
+    description: "Крупные медиахолдинги (WBD) сворачивают нишевые подписочные сервисы в пользу агрегации. Независимые нишевые издания (Motor Sport) развивают tiered-подписку как основу выживания. Два противоположных вектора рынка."
+
+quality:
+  tier_distribution:
+    S: 2
+    A: 5
+    B: 1
+    C: 2
+    D: 0
+    X: 1
+  source_diversity: 0.85
+  has_contradictions: true
+  contradictions:
+    - "MotorTrend+ закрыт как неудача (масштаб недостаточен для WBD), но его выручка достигла 9-значных цифр — это успех с точки зрения медиа-трансформации"
+    - "Freemium через YouTube работал для привлечения подписчиков, но одновременно ограничивал готовность платить у широкой аудитории"
+  gaps:
+    - "Точные цифры числа подписчиков MotorTrend+ на момент закрытия (2024) не публиковались"
+    - "ARPU MotorTrend+ не раскрывался отдельно (входил в общую выручку WBD)"
+    - "Конверсия бесплатного YouTube-трафика в платных подписчиков MotorTrend+ (%) не публиковалась"
+    - "Данные по Car and Driver и Road & Track digital paywall — нет публичных цифр по подписчикам"
+    - "Операционная рентабельность Consumer Reports по направлению automotive в отчётности не выделяется"
+    - "Retention rate подписчиков автомобильных изданий отсутствует в публичных источниках"

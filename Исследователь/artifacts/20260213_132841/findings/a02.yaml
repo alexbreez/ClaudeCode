@@ -1,0 +1,185 @@
+metadata:
+  aspect_id: "a02"
+  aspect_name: "Рекламная модель и автопроизводители"
+  queries_count: 3
+  sources_evaluated: 15
+  sources_used: 9
+
+findings:
+  - id: "f001"
+    content: >
+      Глобальные рекламные инвестиции автопроизводителей сократились на 5.3% до $42.4 млрд в 2022 году,
+      и прогнозировалось дальнейшее снижение на 12.4% в 2023 году. Это продолжение долгосрочного тренда:
+      с 2016 года автомобильные бренды последовательно сокращают бюджеты (кроме постковидного всплеска 2021).
+      За десятилетие с 2013 года доля авто в мировых рекламных расходах упала с 10.1% до прогнозируемых 4.1%.
+    source:
+      url: "https://www.warc.com/content/paywall/article/warc-curated-datapoints/automotive-ad-spend-to-decline-124-in-2023/en-gb/149868"
+      title: "Automotive ad spend to decline 12.4% in 2023 | WARC"
+      tier: A
+      freshness: актуальный
+    relevance: high
+    tags: ["global_spend", "OEM_budgets", "long_term_decline", "WARC"]
+
+  - id: "f002"
+    content: >
+      В 2024 году цифровые рекламные расходы автомобильной отрасли в США оценивались в $21.22 млрд
+      (рост 11.1% г/г), что составляло 7.2% от общего digital ad spend в стране. Несмотря на глобальное
+      снижение, американский digital-сегмент продолжал расти за счёт перетока бюджетов из традиционных медиа
+      в цифровые каналы.
+    source:
+      url: "https://www.jandlmarketing.com/a-guide-to-automotive-digital-paid-media-benchmarks/"
+      title: "A Guide to Automotive Digital Paid Media Benchmarks"
+      tier: B
+      freshness: свежий
+    relevance: high
+    tags: ["digital_spend", "US_market", "2024", "growth"]
+
+  - id: "f003"
+    content: >
+      Автоиндустрия тратит наибольшую долю традиционного медиабюджета на телевидение по сравнению с
+      другими отраслями — согласно данным EMARKETER на 2025 год. ТВ остаётся доминирующим каналом для
+      OEM-брендинга, хотя доля CTV/OTT активно растёт. Среди автомаркетологов, опрошенных в ноябре 2023,
+      большинство планировало увеличить расходы на social media, CTV и digital video в 2024 году.
+    source:
+      url: "https://www.emarketer.com/chart/273079/auto-industry-spends-largest-share-of-its-traditional-media-ad-budget-on-tv-ads-tv-ad-spending-of-total-us-traditional-media-ad-spending-by-industry-2025"
+      title: "Auto Industry Spends the Largest Share of Its Traditional Media Ad Budget on TV Ads | EMARKETER"
+      tier: A
+      freshness: свежий
+    relevance: high
+    tags: ["TV_advertising", "media_mix", "CTV", "digital_video"]
+
+  - id: "f004"
+    content: >
+      Сравнительные CPM по медиаканалам в США (Solomon Partners, 2025): Broadcast TV (Primetime) — $49,
+      Streaming — $23, Digital Video — $16, Digital Display — $8, Social Media — $7, Podcasts — $13,
+      Radio — $5, Magazines — $13, Newspapers — $2, Out of Home (Bulletins) — $3. Это означает, что
+      automotive publishers, работающие с display-рекламой, зарабатывают порядка $8 CPM при стандартных
+      форматах, что существенно ниже video и TV-форматов.
+    source:
+      url: "https://oaaa.org/wp-content/uploads/2025/06/2025-Solomon-Partners-US-Core-Media-CPM-Comparison.pdf"
+      title: "Solomon Partners 2025 Major Media CPM Comparison"
+      tier: A
+      freshness: свежий
+    relevance: high
+    tags: ["CPM", "media_rates", "display", "video", "TV", "benchmarks"]
+
+  - id: "f005"
+    content: >
+      Car and Driver (Hearst Publishing) в 2024 году предлагала рекламодателям следующие форматы:
+      print (6 выпусков в год) — ad pages, co-branded articles, high-impact units; digital — co-branded
+      articles и video, high-impact digital media, in-market media, e-commerce; social (Facebook, Instagram,
+      X, TikTok, Pinterest, YouTube) — branded content, vertical video; podcasts. Спонсорство тест-драйвов
+      и премии (Car and Driver 10Best) — отдельные partnership-пакеты. Этот медиакит демонстрирует стандартную
+      структуру монетизации крупных automotive-изданий.
+    source:
+      url: "https://static1.squarespace.com/static/65e883304f9d8f7295712d83/t/66290a5b0508a24e58317f9d/1713965661097/Car+and+Driver_2024+Media+Kit.pdf"
+      title: "Car and Driver 2024 Media Kit"
+      tier: A
+      freshness: свежий
+    relevance: high
+    tags: ["media_kit", "Car_and_Driver", "ad_formats", "native", "sponsorship", "test_drive"]
+
+  - id: "f006"
+    content: >
+      Automotive display advertising имеет средний Cost-Per-Action (CPA) на 68% ниже среднего по всем
+      отраслям, что делает автомобильный сегмент привлекательным для performance-кампаний. Высокая
+      покупательская интентность аудитории автомобильных сайтов (пользователи активно изучают модели перед
+      покупкой) обусловливает premium-цены на таргетированную рекламу.
+    source:
+      url: "https://info.gsmarketing.com/automotive-display-ads-eguide"
+      title: "Automotive Display Advertising E-Guide"
+      tier: C
+      freshness: устаревающий
+    relevance: medium
+    tags: ["CPA", "display", "performance", "automotive_audience"]
+
+  - id: "f007"
+    content: >
+      BIA Advisory Services (2023) выделяет три уровня automotive-рекламодателей в США: Tier 1 —
+      OEM-производители (Toyota, Ford, GM и др.), Tier 2 — региональные ассоциации дилеров, Tier 3 —
+      отдельные дилерши новых и подержанных авто. Каждый тир использует разные каналы и форматы: OEM
+      фокусируется на national TV и digital brand-awareness; дилеры — на local search, display и social.
+      Прогноз охватывает 16 местных медиаканалов, включая CTV/OTT, мобайл, email, digital magazines.
+    source:
+      url: "https://www.bia.com/wp-content/uploads/BIA-Automotive-Ad-Report-2024-Nov.-23.pdf"
+      title: "BIA Automotive Ad Report 2023-2027"
+      tier: A
+      freshness: актуальный
+    relevance: high
+    tags: ["OEM_tiers", "Tier1", "Tier2", "Tier3", "media_channels", "local_advertising"]
+
+  - id: "f008"
+    content: >
+      Car and Driver в августе 2025 запустил Car and Driver Marketplace на базе технологии Autotrader
+      как признание того, что чистая editorial-рекламная модель не выживает. По комментарию редактора
+      The Auto Channel: "когда такой флагман как Hearst Publishing с их легендарным изданием Car and Driver
+      не может генерировать достаточно рекламного дохода — это подтверждает тревожный тренд: чисто
+      рекламно-поддерживаемые editorial-сайты не могут оставаться в бизнесе, какой бы ни была тематика."
+      Это означает переход к lead-generation как дополнительному источнику дохода.
+    source:
+      url: "https://www.theautochannel.com/news/2025/08/18/1566900-car-and-driver-launches-marketplace-powered-by-autotrader-connecting-visitors.html"
+      title: "Car and Driver's Editorial Driven Advertising Revenue Apparently Not Enough To Survive"
+      tier: B
+      freshness: свежий
+    relevance: high
+    tags: ["editorial_revenue", "lead_generation", "marketplace", "Car_and_Driver", "business_model"]
+
+  - id: "f009"
+    content: >
+      WARC (2025) зафиксировал: в условиях торговых тарифов 2025 года автопроизводители сокращают
+      рекламные бюджеты и смещаются в сторону performance media. Цитата James McDonald, Director of
+      Data, Intelligence & Forecasting at WARC: "Автопроизводители сокращают расходы на фоне растущих
+      затрат и переориентации на performance media." Это ускоряет структурный сдвиг от brand-awareness
+      рекламы в традиционных automotive СМИ к programmatic и search.
+    source:
+      url: "https://www.warc.com/content/article/warc-curated-datapoints/retail-and-automotive-ad-spend-to-decline-this-year-amidst-tariff-concerns/160706"
+      title: "Retail and automotive ad spend to decline this year amidst tariff concerns | WARC"
+      tier: A
+      freshness: свежий
+    relevance: high
+    tags: ["performance_media", "programmatic", "2025_trends", "tariffs", "OEM_strategy"]
+
+themes:
+  - name: "Долгосрочное снижение рекламных бюджетов OEM"
+    finding_ids: ["f001", "f009"]
+    description: >
+      С 2016 года автопроизводители системно сокращают рекламные расходы. Глобальный spend упал с
+      условно 10% мирового рынка в 2013 году до ~4% к 2023. Это прямо угрожает доходам automotive-медиа.
+
+  - name: "Переток из традиционных медиа в digital и performance"
+    finding_ids: ["f002", "f003", "f009"]
+    description: >
+      При общем снижении бюджетов digital-сегмент в США растёт (+11.1% в 2024). Деньги уходят из
+      print и broadcast TV в CTV, social, digital video и programmatic. Automotive-издания вынуждены
+      переизобретать продукт.
+
+  - name: "Иерархия форматов по CPM: видео побеждает display"
+    finding_ids: ["f004", "f006"]
+    description: >
+      Разрыв между video CPM ($16-23) и display CPM ($8) делает video-инвентарь ключевым для
+      монетизации. Automotive display выигрывает на уровне CPA благодаря высокой интентности аудитории.
+
+  - name: "Диверсификация revenue mix автомобильных изданий"
+    finding_ids: ["f005", "f008"]
+    description: >
+      Крупные бренды типа Car and Driver добавляют к рекламе: нативные партнёрства, sponsored awards,
+      marketplace/lead-gen. Одна рекламная модель больше не работает.
+
+quality:
+  tier_distribution:
+    S: 0
+    A: 5
+    B: 2
+    C: 1
+    D: 0
+    X: 0
+  source_diversity: 0.78
+  has_contradictions: false
+  contradictions_notes: >
+    Нет явных противоречий. Есть нюанс: глобальные automotive-бюджеты снижаются,
+    но US digital automotive растёт — эти тренды совместимы (переток внутри сжимающегося пирога).
+  gaps:
+    - "Конкретные CPM-тарифы для automotive-специфических изданий (Motor Trend, Car and Driver) не удалось найти в открытом доступе"
+    - "Точные данные по доле нативного контента vs display в revenue mix automotive-изданий отсутствуют"
+    - "Стоимость sponsorship тест-драйвов у конкретных изданий не раскрывается"
+    - "Разбивка бюджетов Tier 1 OEM по конкретным медиаизданиям закрыта в платных отчётах BIA/WARC"

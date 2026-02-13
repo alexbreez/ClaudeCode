@@ -1,0 +1,67 @@
+topic: "Как зарабатывают издания на автомобильную тематику в англоязычном мире"
+session_id: "20260213_132841"
+created_at: "2026-02-13T13:28:41Z"
+aspects:
+  - id: a01
+    name: "Ландшафт игроков — кто они"
+    description: "Типы изданий: print legacy, digital native, review агрегаторы, YouTube-first. Размеры, аудитории."
+    queries:
+      - "automotive media landscape US UK 2024"
+      - "car magazine digital revenue breakdown"
+      - "top automotive websites traffic monetization"
+
+  - id: a02
+    name: "Рекламная модель и автопроизводители"
+    description: "Прямая реклама: display, video, нативный контент, спонсорство. Бюджеты автопроизводителей."
+    queries:
+      - "automotive advertising spend US media 2024"
+      - "car manufacturer advertising budget magazines"
+      - "auto industry display advertising CPM rates"
+
+  - id: a03
+    name: "Аффилиатный маркетинг и лидогенерация"
+    description: "Как Edmunds, KBB, CarGurus зарабатывают на рефералах дилерам. Стоимость лида, dealer marketplace."
+    queries:
+      - "automotive lead generation revenue Edmunds KBB"
+      - "dealer referral fees automotive media"
+      - "car buying websites affiliate revenue model"
+
+  - id: a04
+    name: "Подписки и paywall модели"
+    description: "Платные подписки: Motor Trend+, Consumer Reports, Car and Driver. Сколько зарабатывают."
+    queries:
+      - "Motor Trend+ subscription revenue"
+      - "automotive magazine paywall subscription model"
+      - "Consumer Reports revenue model membership"
+
+  - id: a05
+    name: "YouTube и видео монетизация"
+    description: "Doug DeMuro, Throttle House, Carwow, Donut Media. AdSense, спонсорство, merchandise."
+    queries:
+      - "automotive YouTube channel monetization revenue"
+      - "car review YouTube sponsorship rates"
+      - "Donut Media Carwow revenue model"
+
+  - id: a06
+    name: "Историческая трансформация моделей"
+    description: "Переход от print-рекламы 1990-х к цифровым моделям. Кто выжил и почему."
+    queries:
+      - "automotive magazine print decline digital transition"
+      - "Car and Driver Motor Trend business model history"
+      - "automotive media revenue shift 2010-2024"
+
+  - id: a07
+    name: "Конфликт интересов и независимость"
+    description: "Влияют ли рекламодатели на тест-драйвы? Скандалы, давление, декларации независимости."
+    queries:
+      - "automotive journalism editorial independence advertising pressure"
+      - "car review independence advertiser influence"
+      - "automotive media conflicts of interest examples"
+
+  - id: a08
+    name: "Нишевые и альтернативные модели"
+    description: "Hagerty, Bring a Trailer, Road & Track — кто строит модель без классической авторекламы."
+    queries:
+      - "Hagerty media business model revenue"
+      - "Bring a Trailer revenue model auction"
+      - "automotive enthusiast media alternative monetization"

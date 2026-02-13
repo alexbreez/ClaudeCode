@@ -1,0 +1,129 @@
+metadata:
+  aspect_id: "a03"
+  aspect_name: "Аффилиатный маркетинг и лидогенерация"
+  queries_count: 5
+  sources_evaluated: 15
+  sources_used: 9
+
+findings:
+  - id: "f001"
+    content: "CarGurus (Nasdaq: CARG) в FY 2024 показал выручку $894M и обслуживал 33,673 платящих дилера по всему миру. Ключевой метрик монетизации — QARSD (Quarterly Average Revenue per Subscribing Dealer) составил $6,492. Marketplace-сегмент (дилерские подписки) является основным источником дохода; в Q4 2024 Marketplace revenue вырос на 15% YoY."
+    source:
+      url: "https://investors.cargurus.com/"
+      title: "CarGurus Investor Relations — Key Metrics FY2024"
+      tier: S
+      freshness: свежий
+    relevance: high
+    tags: ["CarGurus", "QARSD", "dealer-subscription", "revenue", "marketplace"]
+
+  - id: "f002"
+    content: "CarGurus в Q4 2023 ускорил рост Marketplace Revenue до 10% YoY — самый быстрый темп за 10 кварталов. В 2023 году компания завершила приобретение CarOffer и запустила CG Buy Online — движение к платформе с полным циклом сделки (покупка, продажа, финансирование, оптовая торговля). Гайдирующий принцип 2023 года — 'монетизация через enablement транзакций'."
+    source:
+      url: "https://investors.cargurus.com/node/14591/pdf"
+      title: "CarGurus Q4 & FY 2023 Earnings Release"
+      tier: S
+      freshness: актуальный
+    relevance: high
+    tags: ["CarGurus", "transaction-enablement", "CarOffer", "marketplace", "monetization"]
+
+  - id: "f003"
+    content: "Cars.com (Cars Commerce) в FY 2024 зафиксировал рекордную выручку $719MM (+4% YoY) и Adjusted EBITDA $210MM (маржа 29%). Платформа обслуживала более 19,200 дилеров в США и Канаде. ARPD (Average Revenue Per Dealer) составил $2,483 в квартал. 61% трафика — органический. Среднемесячная аудитория — 25.5MM уникальных посетителей."
+    source:
+      url: "https://www.sec.gov/Archives/edgar/data/1683606/000114036125015797/ny20037100x5_ars.pdf"
+      title: "Cars Commerce 2024 Annual Report (SEC Filing)"
+      tier: S
+      freshness: свежий
+    relevance: high
+    tags: ["Cars.com", "ARPD", "dealer-subscription", "revenue", "annual-report"]
+
+  - id: "f004"
+    content: "Cars Commerce предлагает дилерам три продуктовых блока: Marketplace (листинги и лидогенерация), Solutions (программное обеспечение для операций — appraisal, wholesale, digital retailing) и Media (рекламные продукты). Более 85% покупателей не определились с маркой/моделью/дилером в момент начала поиска — это фундамент для монетизации через контент и лидогенерацию."
+    source:
+      url: "https://investor.cars.com/why-invest"
+      title: "Cars Commerce — Why Invest (Investor Relations)"
+      tier: A
+      freshness: свежий
+    relevance: high
+    tags: ["Cars.com", "marketplace", "solutions", "media", "dealer-value-proposition"]
+
+  - id: "f005"
+    content: "Средняя стоимость одного лида для автодилера на рынке США составляет около $250. Некоторые дилеры сообщают о росте Contact Rate до 30% при использовании сторонних провайдеров лидов (AutoTrader, Cars.com). Стоимость лида варьируется в зависимости от источника и конкурентности рынка."
+    source:
+      url: "https://www.turbomarketingsolutions.com/single-post/the-impact-of-purchased-leads-in-the-automotive-industry-a-comprehensive-cost-analysis"
+      title: "The Impact of Purchased Leads in the Automotive Industry — Turbo Marketing Solutions"
+      tier: B
+      freshness: актуальный
+    relevance: high
+    tags: ["cost-per-lead", "dealer-leads", "lead-quality", "AutoTrader", "Cars.com"]
+
+  - id: "f006"
+    content: "CarsDirect предлагает аффилиатную программу с выплатами: $10.00 за лид по запросу цены на новый автомобиль (Dealer Price Quote Request Lead) и $8.00 за лид по подержанному автомобилю (Used Car Dealer Request Lead). Отдельно — $6.00 за лид через партнёрский сайт Autos.com. Аффилиат размещает трекинговые ссылки на своём сайте."
+    source:
+      url: "https://affiliate.carsdirect.com/"
+      title: "CarsDirect Affiliate Program — Earn up to $8 per Lead"
+      tier: B
+      freshness: устаревший
+    relevance: high
+    tags: ["affiliate-program", "lead-commission", "CarsDirect", "CPL", "publisher-revenue"]
+
+  - id: "f007"
+    content: "KBB (Kelley Blue Book) работает в составе Cox Automotive и предлагает дилерам продукты: Instant Cash Offer (ICO) для выкупа автомобилей у потребителей, KBB Service Advisor, vehicle listings, marketing/advertising-инструменты. B2B-платформа KBB ориентирована на помощь дилерам в приобретении запаса и конвертации входящего трафика KBB.com в реальные лиды."
+    source:
+      url: "https://b2b.kbb.com/dealership-resources/"
+      title: "KBB Dealership Resources — B2B KBB"
+      tier: A
+      freshness: свежий
+    relevance: high
+    tags: ["KBB", "Kelley-Blue-Book", "Cox-Automotive", "Instant-Cash-Offer", "dealer-tools"]
+
+  - id: "f008"
+    content: "Исследование Driven Data (2019, более 365,000 лидов) сравнивало качество лидов от Cars.com, Autotrader, CarGurus, Edmunds и TrueCar. До этого отрасль не имела единого инструмента измерения качества лидов по классифайдам. Это указывает на то, что дилеры исторически платили за лиды без чёткой метрики конверсии — рынок лидогенерации был непрозрачным."
+    source:
+      url: "https://digitaldealer.com/everyone/classified-sites-lead-quality-provides-value-find-cars-com-autotrader-cargurus-edmunds-truecar-stack-365k-leads/"
+      title: "Classified Site Lead Quality Index Q1 2019 — Digital Dealer"
+      tier: B
+      freshness: устаревший
+    relevance: medium
+    tags: ["lead-quality", "Edmunds", "Autotrader", "CarGurus", "lead-comparison"]
+
+  - id: "f009"
+    content: "CarGurus в FY 2024 Q4 показал рост международной выручки на 26% YoY и двузначный рост OEM Advertising revenue. Это свидетельствует о диверсификации доходов за пределы dealer marketplace: OEM-реклама (производители платят за продвижение моделей) становится значимым потоком наряду с дилерскими подписками."
+    source:
+      url: "https://investors.cargurus.com/node/15621/pdf"
+      title: "CarGurus Q4 & Full Year 2024 Results"
+      tier: S
+      freshness: свежий
+    relevance: high
+    tags: ["CarGurus", "OEM-advertising", "international", "revenue-diversification", "Q4-2024"]
+
+themes:
+  - name: "Dealer subscription как основная модель монетизации"
+    finding_ids: ["f001", "f003"]
+    description: "Как CarGurus (QARSD $6,492/квартал), так и Cars.com (ARPD $2,483/квартал) монетизируют через ежеквартальные подписки дилеров, а не через поштучную оплату лидов."
+
+  - name: "Трансформация от лидогенерации к transaction enablement"
+    finding_ids: ["f002", "f004"]
+    description: "Платформы движутся от простой продажи лидов к полному циклу сделки — CarGurus через CarOffer и CG Buy Online, Cars.com через wholesale и digital retailing инструменты."
+
+  - name: "Стоимость лида: ~$250 в среднем по рынку"
+    finding_ids: ["f005", "f006"]
+    description: "Рыночная стоимость автомобильного лида для дилера — около $250, аффилиатные выплаты издателям — $6-10 за переданный лид (то есть маржа платформ — кратная)."
+
+  - name: "Диверсификация доходов: OEM + Data + Software"
+    finding_ids: ["f004", "f007", "f009"]
+    description: "Помимо dealer marketplace, платформы зарабатывают на OEM-рекламе, данных (Dealer Data Insights у CarGurus), B2B-софте (KBB ICO, Cars.com Solutions)."
+
+quality:
+  tier_distribution:
+    S: 4
+    A: 2
+    B: 3
+    C: 0
+  source_diversity: 0.85
+  has_contradictions: false
+  gaps:
+    - "Точные данные по выручке Edmunds отдельно от Cox Automotive (компания не публикует standalone отчётность)"
+    - "Детальная разбивка Edmunds: доля лидогенерации vs. рекламы в выручке"
+    - "Конкретные условия дилерских подписок TrueCar (компания перешла на другую модель после 2020)"
+    - "Конверсия лидов от разных платформ в реальные продажи (данные 2019 устарели)"
+    - "Точная стоимость лида у CarGurus и Edmunds для дилеров (непубличная информация)"

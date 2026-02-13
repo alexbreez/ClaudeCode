@@ -1,0 +1,151 @@
+metadata:
+  aspect_id: "a01"
+  aspect_name: "Ландшафт игроков — кто они"
+  queries_count: 5
+  sources_evaluated: 15
+  sources_used: 11
+
+findings:
+  - id: "f001"
+    content: "MotorTrend Group позиционирует себя как крупнейшую автомобильную медиакомпанию в мире. Аудитория издания состоит на 91% из мужчин, средний возраст — мужская аудитория, 64% имеют высшее образование. Компания охватывает print, digital, social и linear TV. Является единственной сетью с линейным ТВ-каналом и SVOD-платформой, полностью посвящённой автомобильному контенту."
+    source:
+      url: "https://www.motortrendgroup.com/motortrend-group-media-kit/"
+      title: "THE LARGEST AUTOMOTIVE MEDIA BRAND IN THE WORLD — MotorTrend Group Media Kit"
+      tier: B
+      freshness: актуальный
+    relevance: high
+    tags: ["print-legacy", "MotorTrend", "размер-аудитории", "TV", "SVOD"]
+
+  - id: "f002"
+    content: "Motor Trend (Motor Trend Group) оценивается в диапазоне $25–100 млн годовой выручки по данным Owler; по данным RocketReach выручка Motor Trend Magazine составляет $89,3 млн. Компания основана в 1949 году, входит в Warner Bros. Discovery. MotorTrend превратил журнальную группу в девятизначный (nine-figure, то есть свыше $100 млн) видео- и digital-бизнес для WBD — согласно Business Insider (2023)."
+    source:
+      url: "https://www.businessinsider.com/warner-bros-discovery-motortrend-built-video-digital-business-2023-8"
+      title: "How MotorTrend turned its magazine group into a 9-figure video and digital business for Warner Bros. Discovery"
+      tier: A
+      freshness: актуальный
+    relevance: high
+    tags: ["MotorTrend", "выручка", "print-to-digital", "Warner Bros Discovery"]
+
+  - id: "f003"
+    content: "Car and Driver (Hearst) — одно из крупнейших автомобильных изданий с точки зрения выручки: $103,2 млн по данным RocketReach, 817 сотрудников, основан в 1955 году. Заявляет 12 млн читателей суммарно по print, online и mobile. Выходит 6 раз в год в print, плюс постоянно обновляемый цифровой сайт, social, подкасты и YouTube. Монетизация включает: рекламные страницы, co-branded контент, in-market media, e-commerce."
+    source:
+      url: "https://rocketreach.co/car-and-driver-magazine-profile_b5e697f9f42e588e"
+      title: "Car and Driver Magazine Information — RocketReach"
+      tier: C
+      freshness: свежий
+    relevance: high
+    tags: ["Car-and-Driver", "Hearst", "print-legacy", "выручка", "аудитория"]
+
+  - id: "f004"
+    content: "Car and Driver 2024 Media Kit подтверждает диверсификацию каналов монетизации print-legacy издания: print (6 раз в год), digital (обновление ежечасно, co-branded статьи, high-impact digital media, in-market media, e-commerce), social (Facebook, Instagram, X/Twitter, TikTok, Pinterest, YouTube), podcasts. Акцент на 10Best Cars franchise как маркетинговом активе."
+    source:
+      url: "https://static1.squarespace.com/static/65e883304f9d8f7295712d83/t/66290a5b0508a24e58317f9d/1713965661097/Car+and+Driver_2024+Media+Kit.pdf"
+      title: "Car and Driver 2024 Media Kit"
+      tier: S
+      freshness: свежий
+    relevance: high
+    tags: ["Car-and-Driver", "монетизация", "медиакит", "e-commerce", "print-digital"]
+
+  - id: "f005"
+    content: "Edmunds.com — один из ведущих агрегаторов-ревью. По данным Semrush (декабрь 2025): 14,68 млн визитов в месяц, глобальный ранг 3681, страновой ранг в США 855, Authority Score 82. Основан в 1966 году как издатель бумажных ценовых гайдов, с 1995 года — первый в мире автомобильный информационный сайт. В 2006 году прекратил выпуск печатных справочников, полностью перейдя в digital."
+    source:
+      url: "https://www.semrush.com/website/edmunds.com/overview/"
+      title: "edmunds.com December 2025 Traffic Stats — Semrush"
+      tier: B
+      freshness: свежий
+    relevance: high
+    tags: ["Edmunds", "агрегатор", "трафик", "digital-native", "история"]
+
+  - id: "f006"
+    content: "Jalopnik.com — digital-native автомобильное издание, входящее в G/O Media. По данным Semrush (декабрь 2025): 6,11 млн визитов в месяц, глобальный ранг 9524, страновой ранг США 2390, Authority Score 67. Ниша: новости, критика индустрии, энтузиастский угол. История: основан в 2004 году как блог, вырос в крупное digital-native СМИ. Для сравнения — существенно меньше агрегаторов типа Edmunds по трафику, но сильнее по лояльности аудитории."
+    source:
+      url: "https://www.semrush.com/website/jalopnik.com/overview/"
+      title: "jalopnik.com December 2025 Traffic Stats — Semrush"
+      tier: B
+      freshness: свежий
+    relevance: high
+    tags: ["Jalopnik", "digital-native", "трафик", "G/O-Media"]
+
+  - id: "f007"
+    content: "CarGurus — крупнейший по трафику авторитейл-маркетплейс. По данным Similarweb (январь 2023): CarGurus лидировал с 41,6 млн визитов в месяц среди восьми главных конкурентов-маркетплейсов. Финансовые результаты Q4 2024 (SEC filing): Marketplace revenue +15% г/г, International revenue +26% г/г, OEM Advertising revenue — двузначный рост г/г, Adjusted EBITDA $76,4 млн (+25% г/г). Позиционирование: 'No. 1 visited digital auto platform for shopping, buying, and selling new and used vehicles'."
+    source:
+      url: "https://www.sec.gov/Archives/edgar/data/1494259/000095017025024150/carg-ex99_1.htm"
+      title: "CarGurus Q4 2024 Earnings — SEC Filing EX-99.1"
+      tier: S
+      freshness: свежий
+    relevance: high
+    tags: ["CarGurus", "маркетплейс", "трафик", "выручка", "агрегатор"]
+
+  - id: "f008"
+    content: "Cars.com (Cars Commerce) — ещё один крупный агрегатор-маркетплейс. По данным годового отчёта за 2024 год (SEC): выручка $719 млн (+4% г/г), Adjusted EBITDA $210 млн (маржа 29%), 25,5 млн средних ежемесячных уникальных посетителей, 627,6 млн трафика, ARPU $2483. Более 19 000 дилерских клиентов в США и Канаде. 61% трафика — органический. Бизнес-модель: SaaS + listings для дилеров."
+    source:
+      url: "https://www.sec.gov/Archives/edgar/data/1683606/000114036125015797/ny20037100x5_ars.pdf"
+      title: "Cars.com 2024 Annual Report — SEC"
+      tier: S
+      freshness: свежий
+    relevance: high
+    tags: ["Cars.com", "маркетплейс", "выручка", "SaaS", "дилеры"]
+
+  - id: "f009"
+    content: "Motor Trend OnDemand — подписочная SVOD-платформа, запущена в 2015–2016 году по $5,99/мес. К ноябрю 2017 года привлекла свыше 100 000 подписчиков, предлагая более 2 000 часов контента. Это пример трансформации print-legacy в subscription streaming: 'Netflix для автолюбителей'. По данным Business Insider (2023) видео- и digital-бизнес MotorTrend стал nine-figure, что подтверждает состоятельность модели. В 2016 году YouTube обеспечивал более 80% общего видео-потребления MotorTrend при почти 3,8 млн подписчиков."
+    source:
+      url: "https://digiday.com/future-of-tv/262004/"
+      title: "Motor Trend finds traction in a subscription streaming service — Digiday"
+      tier: A
+      freshness: устаревающий
+    relevance: high
+    tags: ["MotorTrend", "SVOD", "подписка", "YouTube", "видеобизнес"]
+
+  - id: "f010"
+    content: "The Autopian — новый независимый автомобильный digital-native сайт, запущен 1 апреля 2022 года двумя бывшими авторами Jalopnik (David Tracy и Jason Torchinsky) при финансировании от автодилера Galpin Motors (через президента Beau Boeckmann). Это пример нишевого автомобильного медиа, финансируемого индустриальным игроком, а не венчурным PE. Авторы сознательно избегали PE-финансирования, опасаясь управленческого вмешательства. Runway — несколько лет."
+    source:
+      url: "https://www.axios.com/pro/media-deals/2022/04/01/autopian-auto-news-jalopnik"
+      title: "Autopian launched by ex-Jalopniks — Axios"
+      tier: A
+      freshness: устаревающий
+    relevance: medium
+    tags: ["Autopian", "digital-native", "независимые-медиа", "Jalopnik", "финансирование"]
+
+  - id: "f011"
+    content: "В рейтинге наиболее заметных автомобильных ресурсов по поисковому трафику (gaps.com, декабрь 2025): 1) reddit.com (4K score), 2) caranddriver.com (Hearst, 3.5K), 3) edmunds.com (1.3K), 4) cars.usnews.com (1K), 5) carmax.com. Это показывает структуру ландшафта: пользовательские площадки (Reddit), print-legacy с сильным SEO (Car and Driver), агрегаторы (Edmunds), потребительские медиа (US News)."
+    source:
+      url: "https://gaps.com/research/automotive/"
+      title: "Automotive Websites Trending in Search — Gaps.com"
+      tier: C
+      freshness: свежий
+    relevance: high
+    tags: ["поисковый-трафик", "ландшафт", "Car-and-Driver", "Edmunds", "Reddit"]
+
+themes:
+  - name: "Четыре типа игроков с разной моделью монетизации"
+    finding_ids: ["f001", "f003", "f005", "f007"]
+    description: "Print-legacy (MotorTrend, Car and Driver) — реклама + subscriptions + e-commerce; digital-native редакционные (Jalopnik, The Drive) — реклама; агрегаторы-маркетплейсы (Edmunds, CarGurus, Cars.com) — dealer listings + лидогенерация; SVOD/YouTube-first — подписки + AdSense."
+
+  - name: "Маркетплейсы доминируют по трафику и выручке над редакционными изданиями"
+    finding_ids: ["f005", "f007", "f008", "f011"]
+    description: "Edmunds (14,7 млн визитов), CarGurus (41,6 млн — 2023), Cars.com ($719 млн выручки) значительно превышают по масштабу редакционные бренды типа Jalopnik (6,1 млн визитов)."
+
+  - name: "Print-legacy трансформируется в multi-platform бизнес"
+    finding_ids: ["f002", "f004", "f009"]
+    description: "MotorTrend Group: из журнала — в nine-figure video+digital бизнес. Car and Driver: print 6 раз в год + digital + social + podcasts + e-commerce. Выживание через диверсификацию форматов."
+
+  - name: "Независимые digital-native автомобильные медиа ищут альтернативные источники финансирования"
+    finding_ids: ["f006", "f010"]
+    description: "Jalopnik (G/O Media) сталкивается с системными проблемами рекламной модели. Autopian — эксперимент с отраслевым инвестором вместо PE. Тренд на уход от чистой рекламной зависимости."
+
+quality:
+  tier_distribution:
+    S: 3
+    A: 3
+    B: 3
+    C: 2
+    D: 0
+    X: 0
+  source_diversity: 0.85
+  has_contradictions: false
+  gaps:
+    - "Точные данные по аудитории MotorTrend Group (цифры на сайте медиакита не загружаются — JavaScript placeholders)"
+    - "Данные по трафику The Drive, Road & Track, автомобильных YouTube-каналов (Carwow, Doug DeMuro) не найдены в этом раунде"
+    - "Данные KBB (Kelley Blue Book) по трафику и выручке — KBB принадлежит Cox Automotive, данные не публичны"
+    - "Актуальные данные по подписчикам Motor Trend OnDemand (после 2017 года) отсутствуют"
+    - "UK-специфичные игроки (Autocar, What Car?, Auto Express) не вошли в выборку"
