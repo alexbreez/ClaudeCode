@@ -1,0 +1,153 @@
+metadata:
+  aspect_id: "a06"
+  aspect_name: "Историческая трансформация моделей монетизации"
+  queries_count: 4
+  sources_evaluated: 15
+  sources_used: 11
+
+findings:
+  - id: "f001"
+    content: "В декабре 2019 года TEN Publishing (MotorTrend Group) закрыл печатные версии 19 из 22 своих автомобильных журналов. В живых остались только Motor Trend, Hot Rod и Four Wheeler. Среди закрытых: Automobile, Car Craft, Classic Trucks, Lowrider, Mopar Muscle, Street Rodder, Truck Trend, Vette. Президент компании Алекс Уэллен объяснил это фразой: 'Нам нужно быть там, где наша аудитория'."
+    source:
+      url: "https://www.jalopnik.com/ten-publishing-kills-19-automotive-print-publications-i-1840273584/"
+      title: "TEN Publishing Kills 19 Automotive Print Publications Including Automobile"
+      tier: A
+      freshness: актуальный
+    relevance: high
+    tags: ["закрытие", "TEN Publishing", "2019", "переломный момент", "print-to-digital"]
+
+  - id: "f002"
+    content: "В октябре 2019 года Autoweek — издание с историей с 1958 года — прекратило выпуск печатного журнала. Crain Communications передала бренд в управление Hearst Magazines по многолетнему лицензионному соглашению, переведя его в формат 'digital and experiential brand'. Это произошло за два месяца до масштабного закрытия TEN Publishing."
+    source:
+      url: "https://www.jalopnik.com/autoweek-to-be-operated-by-hearst-ends-print-magazine-1839057142/"
+      title: "Autoweek To Be 'Operated' By Hearst, Ends Print Magazine"
+      tier: A
+      freshness: актуальный
+    relevance: high
+    tags: ["Autoweek", "Hearst", "закрытие", "2019", "digital transition"]
+
+  - id: "f003"
+    content: "В мае 2014 года издательство Source Interlink Media (предшественник TEN Publishing) закрыло 12 журналов и уволило почти 100 сотрудников, одновременно переименовавшись в TEN: The Enthusiast Network. Редакция Automobile Magazine была переведена из Анн-Арбора, штат Мичиган, главный редактор Джин Дженнингс уволена. Это первая крупная волна консолидации."
+    source:
+      url: "https://adage.com/article/media/source-interlink-media-folds-lays-100-employees/293469/"
+      title: "Motor Trend Publisher Source Interlink Media Folds 12 Magazines, Lays Off Nearly 100"
+      tier: A
+      freshness: устаревший
+    relevance: high
+    tags: ["Source Interlink", "2014", "консолидация", "увольнения", "переломный момент"]
+
+  - id: "f004"
+    content: "В феврале 2007 года Auto News фиксировал 'свободное падение' рекламных доходов от автопроизводителей в журналах: издатели сами ездили к OEM-клиентам, предлагая специальные форматы — например, GM размещал рекламные вкладки ('onserts') в Motor Trend для запуска Silverado 2007. Это свидетельствует, что к 2007 году структурный кризис print-рекламы в автомобильных изданиях уже был очевиден."
+    source:
+      url: "https://www.autonews.com/article/20070226/SUB/70223054/with-auto-ad-dollars-in-free-fall-magazine-execs-come-courting/"
+      title: "With auto ad dollars in free fall, magazine execs come courting"
+      tier: A
+      freshness: устаревший
+    relevance: high
+    tags: ["реклама OEM", "2007", "падение доходов", "print-реклама", "структурный кризис"]
+
+  - id: "f005"
+    content: "MotorTrend перешёл от журнального холдинга к диверсифицированному медиабизнесу с девятизначной выручкой (9-figure, то есть от 100 млн долл.). По данным Business Insider (2023), компания стала редким примером успешной медиатрансформации — от набора журналов-энтузиастов (Motor Trend, Hot Rod, Automobile) к прибыльному диверсифицированному бизнесу под управлением Warner Bros. Discovery. В 2024 году MotorTrend перешёл к Hearst Magazines."
+    source:
+      url: "https://www.businessinsider.com/warner-bros-discovery-motortrend-built-video-digital-business-2023-8"
+      title: "How MotorTrend turned its magazine group into a 9-figure video and digital business for Warner Bros. Discovery"
+      tier: A
+      freshness: свежий
+    relevance: high
+    tags: ["MotorTrend", "успешный переход", "9-figure revenue", "Warner Bros Discovery", "Hearst"]
+
+  - id: "f006"
+    content: "В 2015–2016 годах Motor Trend запустил Motor Trend On Demand — платформу подписочного стриминга за $5.99/мес. К февралю 2016 года канал набрал миллиард просмотров на YouTube (бесплатный контент), после чего компания начала переносить часть контента за платный paywall. Платформа включала более 1000 часов оригинального контента, в том числе 'Roadkill Garage' и 'Head2Head Drag'."
+    source:
+      url: "https://digiday.com/media/nearly-billion-views-youtube-motor-trend-now-building-video-paywall/"
+      title: "With a billion views on YouTube, Motor Trend is now building a video paywall"
+      tier: A
+      freshness: устаревший
+    relevance: high
+    tags: ["Motor Trend On Demand", "SVOD", "paywall", "YouTube", "2016", "стриминг"]
+
+  - id: "f007"
+    content: "Hemmings Sports & Exotic Car закрыл 141-й номер в сентябре 2018 года — несмотря на растущую аудиторию (55 000+ подписчиков) и рекордный уровень продления подписок. Причиной закрытия стала не потеря читателей, а экономика: стоимость бумаги, печати и дистрибуции сделала нишевый print нежизнеспособным даже при высоком engagement."
+    source:
+      url: "https://www.hemmings.com/stories/article/the-end-of-the-road"
+      title: "The end of the road — Hemmings Sports & Exotic Car"
+      tier: B
+      freshness: устаревающий
+    relevance: high
+    tags: ["Hemmings", "2018", "закрытие", "нишевые издания", "экономика print"]
+
+  - id: "f008"
+    content: "По данным отраслевого издания SEMA News (2020), в конце 2019 года Motor Trend Group объявил о закрытии 19 из 22 печатных журналов. Статья фиксирует парадокс: отраслевые исследования показывали, что более 90% американцев листали журнал за последние полгода, а вовлечённость среди аудитории до 35 лет была даже выше. То есть проблема — не в чтении журналов, а в рекламных деньгах, которые ушли в digital."
+    source:
+      url: "https://www.sema.org/news-media/magazine/2020/31/new-strategies-automotive-print-publications"
+      title: "New Strategies for Automotive Print Publications"
+      tier: B
+      freshness: актуальный
+    relevance: high
+    tags: ["SEMA", "аудитория", "реклама vs чтение", "парадокс print", "2020"]
+
+  - id: "f009"
+    content: "История MotorTrend: основан в 1949 году Робертом Петерсоном на основе Hot Rod (запущен в 1947 с кредитом $400). К 75-летию (2024) позиционирует себя как 'крупнейшая в мире автомобильная медиакомпания' с аудиторией 26 млн человек в месяц (web, TV, print), 110 млн подписчиков в соцсетях и 2 млрд просмотров контента в месяц на всех платформах."
+    source:
+      url: "https://www.motortrend.com/features/the-history-of-motortrend"
+      title: "MT75: A Brief History of MotorTrend on Our 75th Anniversary"
+      tier: B
+      freshness: свежий
+    relevance: medium
+    tags: ["MotorTrend", "история", "1949", "масштаб", "2024"]
+
+  - id: "f010"
+    content: "Корпоративная история Motor Trend Group: 2007 — создана Source Interlink Media; 2014 — переименована в TEN: The Enthusiast Network; 2017 — куплена Discovery, Inc.; 2022 — перешла к Warner Bros. Discovery; 2024 — продана Hearst Magazines. Три смены владельца за 7 лет — признак того, что крупные медиаконгломераты скупали автомедиа в надежде монетизировать аудиторию, но сталкивались с трудностями."
+    source:
+      url: "https://en.wikipedia.org/wiki/Motor_Trend_Group"
+      title: "Motor Trend Group — Wikipedia"
+      tier: B
+      freshness: свежий
+    relevance: high
+    tags: ["Motor Trend Group", "корпоративная история", "Discovery", "Warner Bros", "Hearst", "M&A"]
+
+  - id: "f011"
+    content: "Automobile Magazine: в 2014 году после реструктуризации Source Interlink редакция переехала из Анн-Арбора в Royal Oak (Michigan), большинство сотрудников уволены. В 2019 году потеряла print-версию вместе с 18 другими журналами TEN. Формально цифровой бренд сохранился, но редакционная независимость была утрачена ещё в 2014-м — классический путь деградации нишевого автожурнала."
+    source:
+      url: "https://www.autoblog.com/2014/05/29/automobile-magazine-closes-ann-arbor-office-releases-staff/"
+      title: "Automobile closes Ann Arbor office, releases most of staff"
+      tier: B
+      freshness: устаревший
+    relevance: high
+    tags: ["Automobile Magazine", "2014", "2019", "деградация", "редакционная независимость"]
+
+themes:
+  - name: "Две волны закрытий: 2014 и 2019"
+    finding_ids: ["f003", "f010", "f011"]
+    description: "Структурное схлопывание рынка происходило в два этапа: консолидация и увольнения 2014 года (Source Interlink → TEN), затем массовое закрытие print в 2019 году (19 из 22 журналов TEN)."
+
+  - name: "Парадокс аудитории vs рекламные деньги"
+    finding_ids: ["f007", "f008"]
+    description: "Читатели не ушли из print — ушли рекламодатели. Hemmings S&EC закрылся при 55 000 подписчиков. 90% американцев читали журналы. Проблема — в структуре доходов, а не в интересе аудитории."
+
+  - name: "MotorTrend как редкий пример успешной трансформации"
+    finding_ids: ["f005", "f006", "f009"]
+    description: "Стратегия: YouTube (бесплатно, для охвата) → SVOD Motor Trend On Demand ($5.99/мес) → TV-сеть → диверсифицированный 9-figure бизнес. Переход занял ~10 лет (2014–2024)."
+
+  - name: "Рекламный кризис как триггер трансформации"
+    finding_ids: ["f001", "f004"]
+    description: "Падение OEM-рекламы в print фиксировалось ещё в 2007 году. К 2019 году оно стало несовместимым с выживанием большинства автомобильных print-изданий."
+
+  - name: "Хронология переломных точек"
+    finding_ids: ["f002", "f003", "f004", "f001"]
+    description: "2007 — фиксируется падение рекламных доходов; 2014 — первая волна закрытий и консолидации; 2019 — Autoweek уходит в digital (октябрь), TEN закрывает 19 журналов (декабрь); 2020–2024 — MotorTrend формирует прибыльную digital-модель."
+
+quality:
+  tier_distribution:
+    S: 0
+    A: 6
+    B: 5
+    C: 0
+  source_diversity: 0.85
+  has_contradictions: false
+  gaps:
+    - "Конкретные цифры падения print-рекламы по годам (2000–2020) для автомобильных изданий специфически"
+    - "Данные о выручке Car and Driver (Hearst) в сравнении с MotorTrend в период трансформации"
+    - "Судьба Road & Track и его цифровой модели монетизации"
+    - "Данные по подписчикам Motor Trend On Demand (SVOD) в динамике"
+    - "История закрытия AutoWeek UK и других не-американских рынков"
